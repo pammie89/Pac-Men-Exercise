@@ -59,14 +59,72 @@
     function makeOne() {
         pacMen.push(makePac()); // add a new PacMan
     }
-</SCRIPT>
 
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+
+      function myFunc() {
+        play();
+        update();
+      }
+   
+
+</SCRIPT>
+<style>
+    body {
+ background-image: url("pacman-back.gif");
+ background-color: #000000;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.btn {
+    background-color: red;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: .25em;
+    margin-top: 15%;
+    border-radius: 15%;
+    padding: 10px;
+    z-index: 100;
+}
+
+html, body {
+    height: 100%;
+}
+#game {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.label {
+    background-color: white;
+    color: Black;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    
+
+}
+</style>
 <body>
     <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
-
+        <button class="btn" onclick='makeOne()' width='200' height='30'>Add PacMan</button>
+        <button class="btn" onclick="myFunc()" width='200' height='30'>Start Game</button>
+        <audio id="audio" src="./playing-pac-man.mp3"></audio>
+        
     </div>
+    <div class="label">Pac-Men Exercise - M.I.T. x/Pro - Full Stack Development</div>
 </body>
 
 </html>
