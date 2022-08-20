@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Pac-Men Exercise
+M.I.T xPRO Pac-Men Exercise<br>
+Pac-Men Exercise:<a href="https://github.com/pammie89/Pac-Men-Exercise"> Repository</a><br>
+Pac-Men Exercise:<a href="https://pammie89.github.io/Pac-Men-Exercise/"> Live Site</a>
+___
 
-You can use the [editor on GitHub](https://github.com/pammie89/Pac-Men-Exercise/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Description of the Project 
+In this exercise, we learned how to create an on-click event to not only start the Pac-Man game but an on-click event that also adds a Pac-Man to the screen with every click. This is done with Javascript using Math.random and such, so that each Pac-Man that is added to the screen has its speed and velocity enabling each Pac-Man to travel across the page at different speeds and directions. I chose to do a bit of customization to the exercise by adding audio and graphics that bring life to the assignment. Just for a bit of fun!
+___
+## How to Run
+Once you copy all the files, you just open the index.html.  You can add the Pac-Men to the screen first or if you would like to have the sound effects then click start game and then add Pac-Men by clicking on the Pac-Men button
+___
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##### Support
+If you are having issues, please let me know, and <a href="mailto:pamela.afaneh@gmail.com"> email me.</a>
+___
+## Roadmap of future improvements
+- I would like to improve the board artwork  
+- I would like to figure out how to fix where if you click start game multiple times it makes the Pac-Men increase in speed. 
+___
+#### License information
 
-### Markdown
+<a href="https://github.com/pammie89/Pac-Men-Exercise/blob/main/License.txt">The MIT License (MIT)</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###### Links to the different repositories:
+Repository Name  | Link
+-------------|--------------------
+Pac-Men Exercise | <a href="https://github.com/pammie89/Pac-Men-Exercise">GitHub Pac-Men repository</a>
+Eye Exercise | <a href="https://github.com/pammie89/Crazy-Eyes">Eye repository</a>
+Bus Tracker Exercise| <a href="https://github.com/pammie89/Real-Time-Bus-Tracker">Bus Tracker repository</a>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pammie89/Pac-Men-Exercise/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+My Potfolio Project:<a href="https://pammie89.github.io/Portfolio/"> pammie89.github.io/Portfolio/</a>
